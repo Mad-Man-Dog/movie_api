@@ -3,10 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+
     <link rel="stylesheet" href="styles.css" />
     <title>Document</title>
   </head>
   <body>
+    <!-- navigation bar -->
     <nav class="navbar">
       <img
         class="menu-icon"
@@ -15,15 +21,25 @@
       />
     </nav>
     <div class="drop-down">
-      <li>Home</li>
-      <hr />
-      <li>Career</li>
-      <hr />
-      <li>Course</li>
-      <hr />
-      <li>Contact</li>
+      <li>home</li>
+      <hr class="nav-line" />
+      <li>career</li>
+      <hr class="nav-line" />
+      <li>course</li>
+      <hr class="nav-line" />
+      <li>contact</li>
     </div>
-     <div class="card-container"> </div>
+    <!-- card container -->
+    <div class="card-container"></div>
+    <footer>
+      <p>&copy; <span id="year"></span></p>
+      <p style="color: #d2d2d2">
+        This site is for educational purposes only, not for publishing.
+      </p>
+      <a href="https://github.com/Mad-Man-Dog" target="_blank">
+        <i class="fab fa-github" style="color: #000000"></i>
+      </a>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
