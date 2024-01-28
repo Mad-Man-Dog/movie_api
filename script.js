@@ -19,9 +19,7 @@ imageButton.addEventListener("click", () => {
   isEffectApplied = !isEffectApplied;
 });
 
-
-// Api for movies
-
+// fetch api site body
 const fetchApi = async () => {
   try {
     const response = await fetch("https://yts.mx/api/v2/list_movies.json");
@@ -75,3 +73,8 @@ function passImage(data) {
   });
 }
 
+// footer area
+const updatedYear = document.getElementById("year");
+
+const currentData = new Date();
+updatedYear.textContent = currentData.getFullYear();
