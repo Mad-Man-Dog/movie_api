@@ -70,7 +70,7 @@ body {
 }
 
 .card {
-  max-width: 200px;
+  max-width: 150px;
   max-height: 310px;
   margin: 10px;
   transition: max-width 0.3s ease;
